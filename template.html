@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+</head>
+
+<body>
+    <div class="container bg-blue-100 p-10">
+        <div class="bg-white m-auto p-2" style="width:339px; height :220.11px">
+            <div class="bdr border border-gray-500 h-full">
+                <div class="card-headerpb-1 border-b border-gray-500 px-1 py-2 flex">
+                    <div class="logo">
+                        <img src="./img/nid logo.png" alt="logo" class="w-10 mt-2">
+                    </div>
+                    <div class="h-info pl-1">
+                        <h6 class="text-base text-center">গণপ্রজান্ত্রী বাংলাদেশ সরকার</h6>
+                        <p style="font-size: 11px; margin-top: 0px;" class="font-semibold text-green-600">Government of
+                            the People's
+                            Republic of Bangladesh</p>
+                        <p style="font-size:10px;" class="text-center font-medium mt-1"><span
+                                class="text-red-500">National ID Card</span> / জাতীয় পরিচয় পত্র</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex">
+                    <div class="user-pic p-0 m-0" ali class="flex" style="margin-top: 2px" align="center">
+                        <div
+                            style="width:90px; height:90px ;background-image: url('/img/user\(demo\).jpg'); background-size: cover;">
+                            .</div>
+                        <p class="text-sm">nahid</p>
+                    </div>
+                    <div class="user-info pl-2">
+                        <ul style="font-size: 10px">
+                            <li class="flex" style="margin-top: 5px">
+                                <span class="" width="50px">নাম :</span>
+                                <span class="ml-4">ননননননননননন</span>
+                            </li>
+                            <li class="flex" style="margin-top: 5px">
+                                <span class="" width="75px">Name :</span>
+                                <span class="ml-2">nnnnnnnnnnn</span>
+                            </li>
+                            <li class="flex" style="margin-top: 5px">
+                                <span class="" width="50px">পিতা :</span>
+                                <span class="ml-4">nnnnnnnnnnn</span>
+                            </li>
+                            <li class="flex" style="margin-top: 5px">
+                                <span class="" width="50px">মাতা :</span>
+                                <span class="ml-4">nnnnnnnnnnn</span>
+                            </li>
+                            <li class="flex" style="margin-top: 5px">
+                                <span class="" width="80px">Date of Birth :</span>
+                                <span class="ml-2">10 Feb 2003</span>
+                            </li>
+                            <li class="flex" style="margin-top: 5px">
+                                <span class="" width="50px">ID NO :</span>
+                                <span class="ml-2">7238473491</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="bg-white m-auto p-2" style="width:339px; height :220.11px">
+            <div class="bdr border border-gray-500 h-full">
+                <div class="card-headerpb-1 border-b border-gray-500 px-1 py-2 flex">
+                    <p class="font-" style="font-size: 9px">
+                        এই কার্ডটি গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের সম্পত্তি। কার্ডটি ব্যবহারকারী ব্যতীত অন্য কোথায় পাওয়া
+                        গেলে নিকটস্থ পোস্ট
+                        অফিসে জমা দেবার জন্য অনুরোধ করা হলো।
+                    </p>
+                </div>
+                <hr>
+                <div class="h-16 border-b border-gray-500">
+                    <p class="font-medium p-1" style="font-size: 9px">
+                    ঠিকানা  :  গ্রাম/রাস্তা : বিরই ,  দত্তের বাজার - ২২৩৪, গফরগাঁও ,  ময়মনসিংহ
+                    </p>
+                    <span class="font-medium pl-1  mt-7 flex justify-between" style="font-size: 9px">
+                        <p>
+                            রক্তের গ্রুপ/Blood Group:  <span>B+</span>
+                        </p>
+                        <p>
+                            জন্মস্থান :  <span>ময়মনসিংহ</span>
+                        </p>
+                        <p class="bg-black text-white px-1">
+                            মূদ্রণ : <span>০১</span>
+                        </p>
+                       
+                    </span>
+                </div>
+                <div class="f-section px-2" align="center">
+                   <div class="overflow-hidden">
+                    <svg class="p-0 width-full overflow-hidden" id="barcode"></svg>
+                   </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+<script src="./app.js"></script>
+</body>
+</html>
